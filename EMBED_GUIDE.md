@@ -8,7 +8,7 @@
 **HTML 代码示例：**
 ```html
 <iframe 
-  src="你的应用发布地址 (例如: https://ais-pre-xxx.run.app)" 
+  src="https://ais-pre-s67j66myjozqyrfldn3yli-768506727829.asia-east1.run.app" 
   width="100%" 
   height="800px" 
   style="border: none; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" 
@@ -40,15 +40,21 @@ import AppContent from '../components/LLMVisualizer/AppContent';
 ## 3. 部署在子域名或子目录中集成
 如果你希望用户有一个全屏的沉浸式体验，且不想受到博客原有样式的影响：
 1. 通过右上角的菜单将项目导出到 GitHub。
-2. 通过 Vercel, Netlify 或 GitHub Pages 将其部署为一个独立的站点（例如：`https://llm-visual.yourblog.com`）。
+2. 通过 Vercel, Netlify 或 GitHub Pages 将其部署为一个独立的站点，或者直接使用我们为您生成的链接（例如：`https://ais-pre-s67j66myjozqyrfldn3yli-768506727829.asia-east1.run.app`）。
 3. 在你的技术博客文章中，创建一个精美的“点击启动互动演示”的按钮或封面图，点击后在新标签页全屏打开该应用。
 
 **按钮示例代码：**
 ```html
-<a href="https://llm-visual.yourblog.com" target="_blank" style="display: inline-block; padding: 12px 24px; background: linear-gradient(to right, #06b6d4, #3b82f6); color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+<a href="https://ais-pre-s67j66myjozqyrfldn3yli-768506727829.asia-east1.run.app" target="_blank" style="display: inline-block; padding: 12px 24px; background: linear-gradient(to right, #06b6d4, #3b82f6); color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
   🚀 启动沉浸式交互演示
 </a>
 ```
+
+## 4. 直接访问链接 (在线预览)
+您也可以直接将以下链接分享给其他人或者挂载在博客的超链接上，用户点击即可直接预览这套系统：
+
+**分享链接:**
+`https://ais-pre-s67j66myjozqyrfldn3yli-768506727829.asia-east1.run.app`
 
 ## 结论
 - 如果追求**快速集成**，推荐使用 **iframe**。
